@@ -1,98 +1,75 @@
-body {
-    background-color: darkgray;
-    color: white;
-}
-
-article {
-    background-color: black;
-    display: flex;  
-    flex-direction: column;
-    height: 300px;
-    width: 600px;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    /* align-items: center;
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    display : flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100vw; */
-}
-
-header {
-    display: flex;
-}
-
-header img{
-    border-radius: 50%;
-    height: 50px;
-}
-
-header h2 {
-    position: relative;
-    bottom: 20px;
-    left: 10px;
-
-    
-}
-
-header p {
-    position: relative;
-    top: 10px;
-    right: 53px;
-}
-
-hr {
-    display: block;
+    width: 100vw;
+    background: black;
     color: white;
-    background-color: white;
-    border: none;
-    height: 0.5px;
-    width: 580px;
-    position: relative;
-    margin-left: 0px;
-    opacity: 30%;
-    
-}
-
-section {
-    line-height: 28px;
-}
-
-section p {
-    opacity: 50%;
-}
-
-div {
-    
-}
-
-ul {
-    
-}
-
-ul span {
-    opacity: 50%;
-    margin
-}
-
-
-li {
-    display: inline;
-    padding: 70px;
-    margin-left: -110px;
-
-}
-
-footer {
-    position: relative;
-    text-align: center;
-    letter-spacing: 50px;
-    top: 20px;
-}
-
-footer i {
-    font-size: 25px;
-    opacity: 30%;
-    position: relative;
-    bottom: 8px;
-}
+  }
+  
+  article{
+    width: 700px;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  img{
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile{
+    display: flex;
+    align-items: center;
+  }
+  
+  h1, h2{
+    margin: 0;
+  }
+  
+  h1{
+    font-size : 16px;
+  }
+  
+  h2{
+    font-weight: normal;
+    font-size: 14px;
+    color: grey;
+    margin: 5px;
+  }
+  
+  ul{
+    padding: 15px 0;
+    border-top: 1px solid grey;
+    border-bottom : 1px solid grey;
+  }
+  
+  li{
+    display: inline-block;
+    padding-right: 25px;
+    color: grey;
+  }
+  
+  li strong{
+    color: white;
+  }
+  
+  p{
+    font-size: 22px;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: grey;
+  }
